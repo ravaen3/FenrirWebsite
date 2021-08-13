@@ -4,8 +4,8 @@ body {
   background: linear-gradient(#00cdac, #02aab0); 
   background-repeat: no-repeat;
   background-attachment: fixed; /* Background won't scroll with page */
-  
 }
+
 header { 
   text-align: center;
 }
