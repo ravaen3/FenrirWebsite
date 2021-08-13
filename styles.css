@@ -1,7 +1,7 @@
 body { 
   height: 100%;
   margin: 0;
-  background: linear-gradient(lightblue, black); 
+  background: linear-gradient(#02aab0, #00cdac); 
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
