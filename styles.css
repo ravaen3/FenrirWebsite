@@ -1,7 +1,7 @@
 body { 
   height: 100%;
   margin: 0;
-  background: linear-gradient(#00ffff, #003333); /* Will be replaced with company group picture */
+  background: linear-gradient(#00ffff, #004c4c); /* Will be replaced with company group picture */
   background-repeat: no-repeat;
   background-attachment: fixed; /* Background won't scroll with page */
 }
