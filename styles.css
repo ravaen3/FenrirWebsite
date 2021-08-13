@@ -7,5 +7,6 @@ body {
 }
 
 header { 
+  padding-top: 50px;
   text-align: center;
 }
