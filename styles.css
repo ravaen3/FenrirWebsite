@@ -20,7 +20,7 @@ body {
 }
 
 #store {
-    background-color: white;
+    background-color: #121212;
 }
 
 ul {
@@ -34,6 +34,7 @@ ul {
 
 .shiplist {
     margin: 5px;
+    color: green;
 }
 
 .shiplist li {
