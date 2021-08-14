@@ -17,13 +17,40 @@ body {
 #store {
   background-color: white;
 }
-.list {
+ul {
   list-style-type: none;
+}
+.list {
   margin: 15px;
   padding: 15px;
 }
+
+.shiplist {
+  margin: 5px;
+}
+
+.shiplist li {
+  margin: 10px;
+  margin-right: 64px;
+  float: left;
+}
+
+.shiplist li a {
+}
+
+.shipstats {
+  float: left;
+  align-content: left;
+}
+.shipstats li {
+  margin: 2px;
+  float: center;
+}
+
+.shipstats li a {
+}
+
 .navbar {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
