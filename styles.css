@@ -1,15 +1,48 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
 body { 
   height: 100%;
   margin: 0;
-  background-image: url("starbase_bg.png"); /* Will be replaced with company group picture */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Background won't scroll with page */
 }
+.home {
+  color:white;
+}
+#home {
+  background-image: url("starbase_bg.png");
+}
+#store {
+  background-color: white;
+}
+.list {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-* {
+.navbar li{
+  float: left;
+}
+
+.navbar li a {
+  display: block;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: darkcyan;
 }
 @font-face {
   font-family: 'Montserrat';
