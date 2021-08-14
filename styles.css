@@ -20,7 +20,7 @@ body {
 }
 
 #store {
-    background-color: #121212; /* Dark Gray */
+    background-color: white;
 }
 
 ul {
@@ -34,7 +34,7 @@ ul {
 
 .shiplist {
     margin: 5px;
-    color: #39FF14; /* Neon Green, (#04d9ff) Neon Blue */
+    color: black;
 }
 
 .shiplist li {
