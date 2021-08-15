@@ -27,12 +27,32 @@ ul {
     list-style-type: none;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1f1f1f;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #pshort {
     word-wrap: break-word;
-    max-width: 420px; 
+    max-width: 420px;
     /* For keeping ship description texts compact so they don't mess up the lists */
     /*could be a good idea to use a container that expands with the length of the ship picture, so that the description text automatically fits*/
 }
+
 .list {
     margin: 15px;
     padding: 15px;
@@ -58,7 +78,8 @@ ul {
 
 .shipstats li {
     margin: 2px;
-    float: none; /* originally center, using "none" makes list items align correctly, also made it so we can use one break less*/
+    float: none;
+    /* originally center, using "none" makes list items align correctly, also made it so we can use one break less*/
     /*list items could appear to float right instead of left if description paragraph text would go too far right but not further than the picture length*/
 }
 
