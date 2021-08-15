@@ -53,6 +53,7 @@ ul {
 .shipstats li {
     margin: 2px;
     float: center;
+    word-wrap: break-word;
 }
 
 .shipstats li a {}
