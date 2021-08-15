@@ -29,8 +29,9 @@ ul {
 
 #pshort {
     word-wrap: break-word;
-    max-width: 420px;
+    max-width: 420px; 
     /* For keeping ship description texts compact so they don't mess up the lists */
+    /*could be a good idea to use a container that expands with the length of the ship picture, so that the description text automatically fits*/
 }
 .list {
     margin: 15px;
