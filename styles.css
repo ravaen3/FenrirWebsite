@@ -57,7 +57,7 @@ ul {
 
 .shipstats li {
     margin: 2px;
-    float: center;
+    float: left; /* originally center */
 }
 
 .shipstats li a {}
