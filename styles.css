@@ -57,7 +57,7 @@ ul {
 
 .shipstats li {
     margin: 2px;
-    float: none; /* originally center */
+    float: none; /* originally center, using "none" makes list items align correctly*/
 }
 
 .shipstats li a {}
