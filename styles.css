@@ -29,7 +29,7 @@ ul {
 
 #pshort {
     word-wrap: break-word;
-    max-width: 420px;
+    max-width: 320px;
     /* For keeping ship description texts compact so they don't mess up the lists */
 }
 .list {
