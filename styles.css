@@ -27,6 +27,9 @@ ul {
     list-style-type: none;
 }
 
+li p {
+    word-wrap: break-word;
+}
 .list {
     margin: 15px;
     padding: 15px;
@@ -53,7 +56,6 @@ ul {
 .shipstats li {
     margin: 2px;
     float: center;
-    word-wrap: break-word;
 }
 
 .shipstats li a {}
