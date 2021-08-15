@@ -57,7 +57,8 @@ ul {
 
 .shipstats li {
     margin: 2px;
-    float: none; /* originally center, using "none" makes list items align correctly*/
+    float: none; /* originally center, using "none" makes list items align correctly, also made it so we can use one break less*/
+    /*list items could appear to float right instead of left if description paragraoh text would go too far right but not further than the picture length*/
 }
 
 .shipstats li a {}
